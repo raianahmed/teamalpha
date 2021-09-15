@@ -1,0 +1,446 @@
+*{
+margin:0px;
+padding: 0px;
+}
+/*body{*/
+	/*background:black;*/
+	}
+/*menu bar*/
+ul{}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*common css end*/
+.center{
+	display:flex;
+		justify-content: center;
+}
+.container{
+	width: 100%
+}
+.container .menubar{
+	background: #86509c;
+	padding: 24px;
+	display: flex;
+}
+.container .logo img{
+	width: 100%;
+}
+.menubar .logo{}
+.menubar .menulist{
+	display: grid;
+	align-items: center;
+}
+.menubar .menulist ul{
+	text-align: right;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+
+}
+.menubar .menulist ul li{
+	padding: 0 20px;
+	
+}
+.menubar .menulist ul li a{
+	color: #fff;
+}
+/*intro-sec*/
+.header .container{
+	height: 360px;
+	width:100%;
+	background: #86509c;
+}
+.intro-sec{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	/*height: 400px;*/
+	padding: 60px 0;
+}
+.intro-sec .intro{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.intro h3{
+	color: #fff;
+	font-size: 32px;
+}
+.btn{
+	text-align: center;
+}
+.btn a{
+	background: #EB7D4B;
+	color: #fff;
+	padding:12px 20px;
+	border-radius: 5px;
+	border-bottom: 4px solid #C86A40;
+}
+/*service-section*/
+.service-sec{
+	background: #17C2A4;
+	display: flex;
+	justify-content: center;
+}
+.service-sec .container{
+	width: 85%;
+}
+.service-sec .container .service-title{
+	margin-top: 40px;
+	text-align: center;
+}
+.service-sec .container .service-title h3{
+	font-size: 32px;
+	text-transform: uppercase;
+}
+.service-sec .container .service-title .line{
+	background: #000;
+	height: 4px;
+	width: 30px;
+}
+.service-sec .container .service-title p{
+	margin-top: 20px;
+	text-align: center;
+}
+.service-sec .container .main{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+.service-sec .container .main .icon-box{
+	text-align: center;
+	margin: 0 6px;
+	margin-top: 60px;
+}
+.service-sec .container .main .icon-box img{}
+.service-sec .container .main .icon-box .icon-content{}
+.service-sec .container .main .icon-box .icon-content h3{
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-size: 20px;
+	color:#fff;
+}
+.service-sec .container .main .icon-box .icon-content p{
+	text-align: justify;
+	color:#fff;
+}
+/*team-section*/
+.team-sec{
+	background: #D3D3D3;
+	display: flex;
+	justify-content: center;
+}
+.team-sec .container{
+	width: 85%;
+}
+.team-sec .container .team-title{
+	margin-top: 40px;
+	text-align: center;
+}
+.team-sec .container .team-title h3{
+	font-size: 32px;
+	text-transform: uppercase;
+}
+.team-sec .container .team-title .line{
+	background: #000;
+	height: 4px;
+	width: 30px;
+}
+.team-sec .container .team-title p{
+	margin-top: 20px;
+	text-align: center;
+}
+.team-sec .container .main{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+.team-sec .container .main .icon-box{
+	text-align: center;
+	margin: 0 6px;
+	margin-top: 60px;
+}
+.team .container .main .icon-box img{}
+.team-sec .container .main .icon-box .icon-content{}
+.team-sec .container .main .icon-box .icon-content h3{
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-size: 20px;
+	color:#000;
+}
+.team-sec .container .main .icon-box .icon-content p{
+	text-align: justify;
+	color:#000;
+}
+/*portfolio-section*/
+.portfolio-sec{
+	background: #FFDD99;
+	display: flex;
+	justify-content: center;
+}
+.portfolio-sec .container{
+	width: 85%;
+}
+.portfolio-sec .container .portfolio-title {
+	margin-top: 40px;
+	text-align: center;
+}
+.portfolio-sec .container .portfolio-title h3{
+	font-size: 32px;
+	text-transform: uppercase;
+}
+.portfolio-sec .container .portfolio-title .line{
+	background: #000;
+	height: 4px;
+	width: 30px;
+}
+.portfolio-sec .container .portfolio-title p{
+	margin-top: 20px;
+	text-align: center;
+}
+/*extra*/
+.extra{}
+.extra .container{
+	width: 100%;
+	background: #FFDD99;
+}
+.extra .container .extra-one{
+	width: 50%;
+	float: left;
+	background: #FFDD99;
+}
+.extra .container .extra-one img{
+	padding: 36px;
+}
+.extra .container .extra-one h3{
+	color:#000;
+	text-align: center;
+}
+.extra .container .extra-two{
+	width: 50%;
+	float: left;
+	background: #FFDD99;
+}
+.extra .container .extra-two img{
+	padding: 36px;
+}
+.extra .container .extra-two h3{
+	color:#000;
+	text-align: center;
+}
+/*three/four*/
+.extra .container .extra-three{
+	width: 50%;
+	float: left;
+	background: #FFDD99;
+}
+.extra .container .extra-three img{
+	padding: 36px;
+}
+.extra .container .extra-three h3{
+	color:#000;
+	text-align: center;
+}
+.extra .container .extra-four{
+	width: 50%;
+	float: left;
+	background: #FFDD99;
+}
+.extra .container .extra-four img{
+	padding: 36px;
+}
+.extra .container .extra-four h3{
+	color:#000;
+	text-align: center;
+}
+.extra .container .pbtn{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.extra .container .pbtn a{
+	background: #30D0C1;
+	color: #fff;
+	padding:12px 20px;
+	border-radius: 5px;
+	border-bottom: 4px solid #18B3A4;
+}
+/*feedback-section*/
+.feed-sec{
+	background: #D74680;
+	justify-content: center;
+}
+.feed-sec .container{
+	width: 100%;
+	background:#D74680;
+}
+.feed-sec .container .title{
+	margin-top: 60px;
+	text-align: center;
+}
+.feed-sec .feed-title h3{
+	font-size: 32px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 16px;
+}
+.feed-sec .container .feed-title .line{
+	background: #D74680;
+	height: 4px;
+	width: 30px;
+}
+.feed-sec .feed-title p{
+	text-align: center;
+}
+
+	/*one-two*/
+.feedback .container .feedback-one{
+	width: 50%;
+	float: left;
+	background: #D74680;
+}
+.feedback .container .feedback-one img{
+	padding: 36px;
+}
+.feedback .container .feedback-one h3{
+	color:#fff;
+	text-align: center;
+}
+.feedback .container .feedback-one h3 p{
+	color: #fff;
+	text-align: center;
+}
+.feedback.container .feedback-two{
+	width: 50%;
+	float: left;
+	background: #D74680;
+}
+.feedback .container .feedback-two img{
+	padding: 36px;
+}
+.feedback .container .feedback-two h3{
+	color:#fff;
+	text-align: center;
+}
+.feedback .container .feedback-two h3 p{
+	text-align: center;
+	color: #fff;
+}
+/*three-four feedback*/
+.feedback .container .feedback-three{
+	width: 50%;
+	float: left;
+	background: #D74680;
+}
+.feedback .container .feedback-three img{
+	padding: 36px;
+}
+.feedback .container .feedback-three h3{
+	color:#fff;
+	text-align: center;
+}
+.feedback .container .feedback-three h3 p{
+	color: #fff;
+	text-align: center;
+}
+.feedback .container .-four{
+	width: 50%;
+	float: left;
+	background: #D74680;
+}
+.feedback.container .feedback-four img{
+	padding: 36px;
+}
+.feedback .container .feedback-four h3{
+	color:#fff;
+	text-align: center;
+}
+.feedback .container .feedback-four h3 p{
+	color: #fff;
+	text-align: center;
+}
+/*contact-section*/
+.contact{
+}
+.contact .container{
+	width: 100%;
+}
+
+.contact .container .contact-title{
+	margin-top: 40px;
+	text-align: center;
+}
+.contact .container .contact-title h3{
+	font-size: 32px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.contact .container .line{
+	background: #000;
+	height: 4px;
+	width: 30px;
+}
+.contact .container .contact-title p{
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.contact .container .list {
+	display: block;
+}
+.contact .containe .list form{
+
+	height: 20px;
+	background: #0D3252;
+}
+.contact .containe .list form input .earth-one {
+	height: 20px;
+	background: #0D3252;
+}
+.contact .containe .list form input .earth-two{
+	height: 20px;
+	background: #0D3252;
+}
+
+.contact .containe .list form input .earth-three{
+}
+.contact .container .mbtn{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.contact .container .mbtn a{
+	background: #30D0C1;
+	color: #fff;
+	padding:12px 20px;
+	border-radius: 5px;
+	border-bottom: 4px solid #009688;
+}
+/*footer-sec*/
+.footer {
+	background: #344B8E;
+	justify-content: center;
+}
+.footer .container {
+	width: 100%;
+	height: 80px;
+}
+.footer .container .foot-list{
+}
+.footer .container .foot-list ul{
+	text-align: center;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+}
+.footer .container .foot-list li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.footer .container .foot-list li a {
+	color:#fff;
+}
